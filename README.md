@@ -1,12 +1,13 @@
-# fdsw-github
-<h1 align="center">Hola 👋, soy Lara Bellomo Gómez</h1>
-<h3 align="center">Apasionada por el turismo, les quiero compartir mi pagina</h3>
+# 🇨🇭 Página de Turismo en Suiza  
 
-<h3 align="left">Conéctate conmigo:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/in/lara-gomez-bellomo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="in/lara-gomez-bellomo" height="30" width="40" /></a>
-<a href="https://www.behance.net/https://www.behance.net/larabellomo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/behance.svg" alt="https://www.behance.net/larabellomo" height="30" width="40" /></a>
-</p>
+Este proyecto es una página web dedicada a mostrar la belleza de Suiza, sus destinos más icónicos, su cultura y actividades para visitantes.  
 
-<h3 align="left">Lenguajes y herramientas:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.logo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> </p>
+## 🌍 Objetivo
+Ofrecer a turistas y viajeros una guía visual y práctica sobre qué hacer y qué lugares visitar en Suiza.  
+
+## ✨ Características
+- Información sobre ciudades principales: Zúrich, Ginebra, Berna, Lucerna, Interlaken, etc.  
+- Sección de naturaleza: Alpes suizos, lagos, rutas de senderismo.  
+- Gastronomía típica (quesos, chocolates, fondues).  
+- Consejos de viaje: transporte, clima y mejores épocas para visitar.  
+- Diseño responsive adaptable a móviles y escritorio.  
