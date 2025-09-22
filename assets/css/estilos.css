@@ -11,6 +11,9 @@ body {
   background-position: left;
 }
 
+.titulo{
+  padding-top: 20px;
+}
 /* Mis trabajos */
 
 #Mis-trabajos .image-top {
