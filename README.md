@@ -1,6 +1,6 @@
 # fdsw-github
 <h1 align="center">Hola 👋, soy Lara Bellomo Gómez</h1>
-<h3 align="center">Un desarrollador frontend apasionado de</h3>
+<h3 align="center">Apasionada por el turismo, les quiero compartir mi pagina</h3>
 
 <h3 align="left">Conéctate conmigo:</h3>
 <p align="left">
