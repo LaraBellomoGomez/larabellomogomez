@@ -1,0 +1,27 @@
+#Hero-Section {
+    background-image: url("../imagenes/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+}
+
+#Hero-Section h1{
+  text-align: center;
+  padding-top: 250px;
+  padding-bottom: 15px;
+}
+
+#Hero-Section p{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.boton {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 120px;
+}
