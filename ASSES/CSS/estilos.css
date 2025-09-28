@@ -70,3 +70,10 @@
   padding-left: 170px;
   padding-right: 120px;
 }
+
+#proyectos{
+  width: 100%;
+  padding: 60px;
+   background-color: rgba(128, 128, 128, 0.5)
+}
+
