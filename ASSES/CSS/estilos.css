@@ -27,7 +27,7 @@
 }
 
 .boton:hover {
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
 
 #Acerca-de-mi {
@@ -71,9 +71,13 @@
   padding-right: 120px;
 }
 
-#proyectos{
+#proyectos {
   width: 100%;
   padding: 60px;
-   background-color: rgba(128, 128, 128, 0.5)
+  background-color: rgba(128, 128, 128, 0.5)
 }
 
+.card-text{
+  padding: 0px;
+  margin: 0px;
+}
