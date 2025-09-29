@@ -30,6 +30,7 @@
   transform: scale(1.05);
 }
 
+
 #Acerca-de-mi {
   background-image: url("../imagenes/fondorosa.jpg");
   background-size: cover;
@@ -37,39 +38,18 @@
   background-repeat: no-repeat;
   height: 100vh;
   margin: 0;
-  padding: 0;
+  padding: 30px;
 }
 
 #Acerca-de-mi h2 {
-  padding-top: 150px;
   font-size: 30px;
+  padding-top: 30px;
 }
 
 #Acerca-de-mi p {
   padding-bottom: 20px;
 }
 
-.row h3 {
-  padding-top: 40px;
-  padding-bottom: 20px;
-  padding-left: 170px;
-  padding-right: 120px;
-  font-size: 28px;
-
-}
-
-.row h4 {
-  padding-top: 40px;
-  padding-bottom: 20px;
-  padding-left: 70px;
-  padding-right: 120px;
-  font-size: 28px;
-}
-
-.row p {
-  padding-left: 170px;
-  padding-right: 120px;
-}
 
 #proyectos {
   width: 100%;
@@ -77,7 +57,3 @@
   background-color: rgba(128, 128, 128, 0.5)
 }
 
-.card-text{
-  padding: 0px;
-  margin: 0px;
-}

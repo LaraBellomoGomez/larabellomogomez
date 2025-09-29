@@ -25,41 +25,43 @@
 <body>
 
     <!-- INICIO DEL NAV-->
-    <nav class="navbar navbar-expand-lg bg-danger p-2 text-dark bg-opacity-10 fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand text-uppercase text-black fw-bolder fs-6" href="#">
-                <img src="./asses/imagenes/logo.png" alt="Logo" width="40" height="40"
-                    class="d-inline-block align-text-center me-2">
-                Lara Bellomo Gomez
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-6 gap-4">
-                    <li class="nav-item">
-                        <a class="nav-link text-black text-uppercase fw-bolder" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-black text-uppercase fw-bolder" href="#">Acerca de mi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-black text-uppercase fw-bolder" href="#">Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-black text-uppercase fw-bolder" href="#">Contacto</a>
-                    </li>
-                </ul>
-            </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-danger p-2 text-dark bg-opacity-10 fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand text-uppercase text-black fw-bolder fs-6" href="#">
+            <img src="./asses/imagenes/logo.png" alt="Logo" width="40" height="40"
+                class="d-inline-block align-text-center me-2">
+            Lara Bellomo Gomez
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-6 gap-4">
+                <li class="nav-item">
+                    <a class="nav-link text-black text-uppercase fw-bolder" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black text-uppercase fw-bolder" href="#">Acerca de mí</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black text-uppercase fw-bolder" href="#">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black text-uppercase fw-bolder" href="#">Contacto</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
+
 
     <!-- FIN DEL NAV-->
     <!-- INICIO DEL INICIO-->
 
     <header id="Hero-Section" class="text-dark">
-        <div class="container">
+        <div class="container-fluid">
             <div class="texto">
                 <h1 class="fw-bold text-uppercase">Hola, soy Lara Bellomo Gómez.</h1>
                 <p>Me estoy formando como programadora web y me apasiona convertir ideas en experiencias digitales
@@ -86,53 +88,54 @@
 
     <!-- FIN DEL INICIO-->
 
-    <!-- INICIO DEL ACERCA DE MI-->
+<section id="Acerca-de-mi" class="container-fluid py-5">
+    <h2 class="display-3 fw-bold text-uppercase text-center">Acerca de mí</h2>
+    <p class="text-center">
+        En esta sección comparto más sobre mi recorrido, lo que me inspira y las habilidades que estoy desarrollando
+        en programación y tecnología.<br>
+        Mi objetivo es seguir creciendo profesionalmente, aportar valor con soluciones digitales creativas y
+        adaptarme a los nuevos retos del sector.
+    </p>
 
-    <section id="Acerca-de-mi" class="informacion">
-        <h2 class="display-3 fw-bold text-uppercase text-center">Acerca de mi</h2>
-        <p class="text-center">
-            En esta sección comparto más sobre mi recorrido, lo que me inspira y las habilidades que estoy desarrollando
-            en programación y tecnología. <br> Mi objetivo es seguir creciendo profesionalmente, aportar valor con
-            soluciones digitales creativas y adaptarme a los nuevos retos del sector.
-        </p>
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <h3 class="fw-bold">Te invito a conocer más sobre mí</h3>
-                <p class="text-start">
-                    Cuento con una amplia experiencia en el área administrativa, donde he desarrollado un gran ojo para
-                    los detalles, el orden y la organización.
-                    A lo largo de mi trayectoria también he adquirido conocimientos en Diseño UX/UI, marketing y
-                    publicidad, lo que me permite aportar una visión integral y creativa a cada proyecto. <br>
-                    Actualmente me estoy incorporando al mundo de la programación, con especial interés en el desarrollo
-                    web y en la creación de experiencias digitales útiles y atractivas. <br>Te invito a conectar conmigo
-                    en LinkedIn para que podamos mantenernos en contacto. <br> Estoy abierta a nuevas oportunidades
-                    laborales donde pueda contribuir, seguir aprendiendo y crecer profesionalmente. Si encuentras una
-                    oportunidad alineada con mis habilidades y experiencia, no dudes en contactarme.
-                </p>
-                <div class="boton">
-                    <button
-                        class="btn btn-lg btn-info bg-danger bg-opacity-10 border border-dark border border-2">CONTACTO</button>
-                </div>
+    <div class="row">
+        <!-- Columna izquierda -->
+        <div class="container-fluid col-12 col-md-4 mb-4">
+            <h3 class="fw-bold">Te invito a conocer más sobre mí</h3>
+            <p class="text-start">
+                Cuento con una amplia experiencia en el área administrativa, donde he desarrollado un gran ojo para
+                los detalles, el orden y la organización. A lo largo de mi trayectoria también he adquirido conocimientos
+                en Diseño UX/UI, marketing y publicidad, lo que me permite aportar una visión integral y creativa a cada proyecto.
+                <br><br>
+                Actualmente me estoy incorporando al mundo de la programación, con especial interés en el desarrollo web
+                y en la creación de experiencias digitales útiles y atractivas.<br>
+                Te invito a conectar conmigo en LinkedIn para que podamos mantenernos en contacto.<br>
+                Estoy abierta a nuevas oportunidades laborales donde pueda contribuir, seguir aprendiendo y crecer
+                profesionalmente. Si encuentras una oportunidad alineada con mis habilidades y experiencia, no dudes en contactarme.
+            </p>
+            <div class="container-fluid d-flex justify-content-center mt-3">
+                <button class="btn btn-lg btn-info bg-danger bg-opacity-10 border border-dark border-2">CONTACTO</button>
             </div>
+        </div>
 
-            <div class="col-12 col-md-6">
-                <h4 class="fw-bold"> Mis habilidades</h3>
-                    <div class="col-12 col-md-6 d-flex justify-content-center align-items-center flex-wrap">
-                        <button type="button" class="btn btn-secondary m-1" disabled>HTML</button>
-                        <button type="button" class="btn btn-secondary m-1" disabled>CSS</button>
-                        <button type="button" class="btn btn-secondary m-1" disabled>GIT</button>
-                        <button type="button" class="btn btn-secondary m-1" disabled>GITHUB</button>
-                    </div>
+        <!-- Columna derecha -->
+        <div class="col-12 col-md-4 mb-4">
+            <h4 class="fw-bold text-start">Mis habilidades</h4>
+            <div class="d-flex justify-content-start align-items-start flex-wrap">
+                <button type="button" class="btn btn-secondary m-1" disabled>HTML</button>
+                <button type="button" class="btn btn-secondary m-1" disabled>CSS</button>
+                <button type="button" class="btn btn-secondary m-1" disabled>GIT</button>
+                <button type="button" class="btn btn-secondary m-1" disabled>GITHUB</button>
             </div>
-    </section>
+        </div>
+    </div>
+</section>
 
-    <!-- INICIO DEL ACERCA DE MI-->
 
     <!-- INICIO DE PROYECTOS-->
 
     <section id="proyectos" class="proyectos">
-  <h2 class="display-4 fw-bold text-center text-light mb-3">Proyectos</h2>
-  <p class="text-center mb-4">
+  <h2 class="display-4 fw-bold text-center text-uppercase text-dark mb-3">Proyectos</h2>
+  <p class="text-center mb-4 pb-10">
     Aquí encontrarás algunos de los proyectos personales que he desarrollado como parte de las entregas en Desafío Latam.
   </p>
 
@@ -142,7 +145,7 @@
       <div class="card h-100 bg-transparent text-start">
         <img src="./asses/imagenes/proyecto5.png" class="card-img-top img-fluid" alt="proyecto5">
         <div class="card-body">
-          <h5 class="card-title">Proyecto 5</h5>
+          <h5 class="card-title fw-bold text-uppercase">Proyecto 5</h5>
           <p class="card-text">
             Se me evaluó realizar un fork y clonación del repositorio, agregando mis datos personales al proyecto. Registré los cambios mediante 5 commits y compartí el repositorio final en GitHub, demostrando manejo de control de versiones y colaboración en proyectos.
           </p>
@@ -155,9 +158,9 @@
       <div class="card h-100 bg-transparent text-start">
         <img src="./asses/imagenes/proyecto4.png" class="card-img-top img-fluid" alt="proyecto4">
         <div class="card-body">
-          <h5 class="card-title">Proyecto 4</h5>
+          <h5 class="card-title fw-bold text-uppercase">Proyecto 4</h5>
           <p class="card-text">
-            Se me evaluó realizar un fork y clonación del repositorio, agregando mis datos personales al proyecto...
+            Se me evaluó implementar un maquetado con Bootstrap aplicando una grilla responsiva para los cupones, el uso de clases de colores, márgenes y paddings según la maqueta, y el diseño de cupones con el componente Card. También se evaluó la correcta estructura de carpetas e indentación del código.
           </p>
         </div>
       </div>
@@ -168,9 +171,9 @@
       <div class="card h-100 bg-transparent text-start">
         <img src="./asses/imagenes/proyecto3.png" class="card-img-top img-fluid" alt="proyecto3">
         <div class="card-body">
-          <h5 class="card-title">Proyecto 3</h5>
+          <h5 class="card-title fw-bold text-uppercase">Proyecto 3</h5>
           <p class="card-text">
-            Se me evaluó realizar un fork y clonación del repositorio, agregando mis datos personales al proyecto...
+            Se me evaluó la entrega de un proyecto con una estructura de archivos ordenada, la correcta disposición horizontal de sección, párrafo e imagen con Flex, y la implementación de la sección de características utilizando Flex junto a íconos de Font Awesome. También se evaluó la galería de imágenes con Flex y el uso de etiquetas semánticas para definir las secciones de la página.
           </p>
         </div>
       </div>
@@ -181,9 +184,9 @@
       <div class="card h-100 bg-transparent text-start">
         <img src="./asses/imagenes/proyecto2.png" class="card-img-top img-fluid" alt="proyecto2">
         <div class="card-body">
-          <h5 class="card-title">Proyecto 2</h5>
+          <h5 class="card-title fw-bold text-uppercase">Proyecto 2</h5>
           <p class="card-text">
-            Se me evaluó realizar un fork y clonación del repositorio, agregando mis datos personales al proyecto...
+            Se me evaluó la creación de una página con una sección principal que incluye imagen de fondo y texto, una sección de productos con al menos tres elementos acompañados de sus descripciones, y un footer al final de la página. Además, se evaluó la integración del CSS desde un archivo externo en la carpeta correspondiente y la correcta estructura del HTML sin errores de etiquetas.
           </p>
         </div>
       </div>
@@ -194,9 +197,9 @@
       <div class="card h-100 bg-transparent text-start">
         <img src="./asses/imagenes/proyecto1.png" class="card-img-top img-fluid" alt="proyecto1">
         <div class="card-body">
-          <h5 class="card-title">Proyecto 1</h5>
+          <h5 class="card-title fw-bold text-uppercase">Proyecto 1</h5>
           <p class="card-text">
-            Se me evaluó realizar un fork y clonación del repositorio, agregando mis datos personales al proyecto...
+            Se me evaluó la construcción de una página con la estructura base de un documento HTML, utilizando correctamente títulos, subtítulos y párrafos. También se pidió incluir una lista ordenada y una no ordenada, al menos una imagen con texto alternativo, y enlaces funcionales hacia el portafolio y redes sociales. Además, se evaluó la creación de una segunda página (portafolio.html) con una tabla que contenga los proyectos, mostrando en la primera columna los nombres y en la segunda capturas, dejando filas preparadas para futuros proyectos.
           </p>
         </div>
       </div>
