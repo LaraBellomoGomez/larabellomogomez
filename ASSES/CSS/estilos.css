@@ -1,5 +1,5 @@
 #Hero-Section {
-  background-image: url("../imagenes/fondo.jpg");
+  background-image: url("../IMAGENES/fondo.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -32,7 +32,7 @@
 
 
 #acercademi{
-  background-image: url("../imagenes/fondorosa.jpg");
+  background-image: url("../IMAGENES/fondorosa.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
