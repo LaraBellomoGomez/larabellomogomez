@@ -15,7 +15,7 @@
         rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <title>Lara Bellomo Gomez</title>
-    <link rel="icon" type="image/png" href="./ASSES/IMAGENES/LOGO.png">
+    <link rel="icon" type="image/png" href="../ASSES/IMAGENES/LOGO.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
         integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -23,13 +23,12 @@
 </head>
 
 <body>
-
     <!-- INICIO DEL NAV-->
     <nav class="navbar navbar-expand-lg navbar-light bg-danger p-2 text-dark bg-opacity-10 fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand text-uppercase text-black fw-bolder fs-6" href="#">
                 <img src="../ASSES/IMAGENES/LOGO.png" alt="Logo" width="40" height="40"
-                    class="d-inline-block align-text-center me-2">
+                    class="d-inline-block align-text-center me-2 img-fluid">
                 Lara Bellomo Gomez
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -38,31 +37,62 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-6 gap-4">
+                <!-- quité gap-4 y lo reemplacé por spacing más seguro -->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-6">
                     <li class="nav-item">
-                        <a class="nav-link text-black text-uppercase fw-bolder" href="../index.html">Inicio</a>
+                        <a class="nav-link text-black text-uppercase fw-bolder px-2" href="../index.html">Inicio</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
-
     <!-- FIN DEL NAV-->
 
     <!-- INICIO DEL INICIO-->
     <section id="inicio">
-        <header id="Hero-Section" class="text-dark">
+        <header id="Hero-Section1" class="text-dark">
             <div class="container-fluid">
                 <div class="texto">
-                    <h1 class="fw-bold text-uppercase">Hola, soy Lara Bellomo Gómez.</h1>
-                    <p>Me estoy formando como programadora web y me apasiona convertir ideas en experiencias digitales
-                        útiles y agradables. <br> Me motivan los desafíos, aprender constantemente y crear proyectos que
-                        marquen la diferencia.</p>
+                    <h1 class="fw-bold text-uppercase">Proyecto 6.</h1>
+                    <p>A continuación se muestran las imágenes correspondientes a este proyecto.</p>
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../ASSES/IMAGENES/fork1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../ASSES/IMAGENES/fork12.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../ASSES/IMAGENES/fork13.png" class="d-block w-100" alt="...">
+                            </div>
+                               <div class="carousel-item">
+                                <img src="../ASSES/IMAGENES/fork2.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../ASSES/IMAGENES/fork22.png" class="d-block w-100" alt="...">
+                            </div>
+                              <div class="carousel-item">
+                                <img src="../ASSES/IMAGENES/fork23.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </header>
     </section>
+
+    <!-- FIN DEL INICIO-->
 
 
 

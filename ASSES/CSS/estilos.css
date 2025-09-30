@@ -86,3 +86,30 @@ html {
   scroll-behavior: smooth;
 }
 
+#carouselExample .carousel-item img {
+    max-height: 500px; 
+    object-fit: contain; 
+    width: 100%; 
+}
+
+#Hero-Section1 {
+  background-image: url("../IMAGENES/fondocopia.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#Hero-Section1 h1 {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 15px;
+}
+
+#Hero-Section1 p {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
