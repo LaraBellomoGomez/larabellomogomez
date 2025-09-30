@@ -36,18 +36,11 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
-  margin: 0;
-  padding: 30px;
 }
 
 #acercademi h2 {
   font-size: 30px;
   padding-top: 30px;
-}
-
-#acercademi p {
-  padding-bottom: 20px;
 }
 
 
@@ -70,7 +63,7 @@
 }
 
 #contacto {
-  background-image: url("../imagenes/fondocopia.jpg");
+  background-image: url("../IMAGENES/fondocopia.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
