@@ -84,6 +84,11 @@ html, body {
 
 html {
   scroll-behavior: smooth;
+  
+}
+
+.navbar{
+  background-color: #F3E0E2;
 }
 
 #carouselExample .carousel-item img {
