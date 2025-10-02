@@ -40,11 +40,12 @@ html, body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  height: 700px;
 }
 
 #acercademi h2 {
   font-size: 30px;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 
