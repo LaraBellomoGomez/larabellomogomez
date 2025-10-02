@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -35,12 +36,12 @@ html, body {
 }
 
 
-#acercademi{
+#acercademi {
   background-image: url("../IMAGENES/fondorosacopia.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 700px;
+  height: auto;
 }
 
 #acercademi h2 {
@@ -54,16 +55,16 @@ html, body {
   background-color: rgba(128, 128, 128, 0.5)
 }
 
-#proyectos h2{
+#proyectos h2 {
   font-size: 30px;
   padding-top: 60px;
 }
 
-#proyectos p{
+#proyectos p {
   padding-bottom: 20px;
 }
 
-.row{
+.row {
   padding: 20px;
 }
 
@@ -78,24 +79,24 @@ html, body {
   padding: 100px;
 }
 
-#contacto h2{
+#contacto h2 {
   font-size: 30px;
   padding-top: 60px;
 }
 
 html {
   scroll-behavior: smooth;
-  
+
 }
 
-.navbar{
+.navbar {
   background-color: #F3E0E2;
 }
 
 #carouselExample .carousel-item img {
-    max-height: 500px; 
-    object-fit: contain; 
-    width: 100%; 
+  max-height: 500px;
+  object-fit: contain;
+  width: 100%;
 }
 
 #Hero-Section1 {
@@ -120,11 +121,11 @@ html {
   padding-bottom: 15px;
 }
 
-.row1{
-   background-image: url("../IMAGENES/fondocv.jpg");
+.row1 {
+  background-image: url("../IMAGENES/fondocv.jpg");
 }
 
-.presentacion h1{
+.presentacion h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 3rem;
   font-weight: 600;
@@ -136,24 +137,21 @@ p.contacto {
 }
 
 #intro {
-  background-color:#F3E0E2;
+  background-color: #F3E0E2;
   display: flex;
-  justify-content: center;   
-  align-items: center;      
-  height: 200px;        
+  justify-content: center;
+  align-items: center;
+  height: auto;
 }
 
 #intro .intro {
   padding: 20px;
-  max-width: 1200px;        
-  text-align: center;        
-  margin: 0;      
+  max-width: 1200px;
+  text-align: center;
+  margin: 0;
 }
 
-  .col-left {
-    padding-left: 120px;
-  }
+.col-left li {
+  padding-top: 5px;
+}
 
-  .col-left li{
-    padding-top: 5px;
-  }
