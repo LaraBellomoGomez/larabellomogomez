@@ -123,6 +123,8 @@ html {
 
 .row1 {
   background-image: url("../IMAGENES/fondocv.jpg");
+  padding-top: 20px;
+  height: auto;
 }
 
 .presentacion h1 {
