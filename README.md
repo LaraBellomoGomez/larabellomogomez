@@ -13,4 +13,4 @@ Gestión y Coordinación: Organización de equipos, planificación de proyectos,
 Herramientas: Figma, Git, herramientas de prototipado y colaboración digital
 
 🌟 Objetivo Profesional
-Integrar mis competencias administrativas y de liderazgo con mis habilidades digitales para diseñar y desarrollar soluciones web que simplifiquen procesos, mejoren la experiencia de usuario y generen valor tangible.
+Integrar mis competencias administrativas y de liderazgo con mis habilidades digitales para diseñar y desarrollar soluciones web que simplifiquen procesos, mejoren la experiencia de usuario y generen valor tangible. 
