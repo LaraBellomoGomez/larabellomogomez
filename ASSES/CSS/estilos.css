@@ -118,3 +118,36 @@ html {
   padding-top: 10px;
   padding-bottom: 15px;
 }
+
+.row1{
+   background-image: url("../IMAGENES/fondocv.jpg");
+}
+
+.presentacion h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+p.contacto {
+  margin: 0.2rem 0;
+}
+
+
+
+#intro {
+  background-color:#F3E0E2;
+  display: flex;
+  justify-content: center;   
+  align-items: center;      
+  height: 200px;        
+}
+
+#intro .intro {
+  padding: 20px;
+  max-width: 1200px;        
+  text-align: center;        
+  margin: 0;      
+ 
+}
