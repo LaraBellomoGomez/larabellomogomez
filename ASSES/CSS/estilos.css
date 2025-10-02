@@ -135,8 +135,6 @@ p.contacto {
   margin: 0.2rem 0;
 }
 
-
-
 #intro {
   background-color:#F3E0E2;
   display: flex;
@@ -150,5 +148,12 @@ p.contacto {
   max-width: 1200px;        
   text-align: center;        
   margin: 0;      
- 
 }
+
+  .col-left {
+    padding-left: 120px;
+  }
+
+  .col-left li{
+    padding-top: 5px;
+  }
